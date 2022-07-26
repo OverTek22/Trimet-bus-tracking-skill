@@ -59,7 +59,7 @@ class MBTA():
     self.serverError = False
      
     # base url
-    api_url = "https://developer.trimet.org/ws/V1/arrivals/locIDs/6849,6850/appID/{}".format(endPoint)
+    api_url = "https://developer.trimet.org/ws/V1/arrivals/locIDs/6849,6850/appID/5B1680B033D32C8D64A577CAA{}".format(endPoint)
 
     # if we are using an api key and have args
     if self.apiKey != None and args != None:
