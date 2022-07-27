@@ -80,6 +80,7 @@ class MBTA():
     try:
  
       # get requested data
+      print(api_url)
       r = requests.get(api_url)
       
       # check if we got any data before setting return value
